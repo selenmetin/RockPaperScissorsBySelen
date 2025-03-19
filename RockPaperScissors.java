@@ -24,17 +24,17 @@ public class RockPaperScissors {
             return;
         }
         Random random = new Random();
-        int computerRandomNumber = random.nextInt(4);
+        int computerRandomNumber = random.nextInt(3);
         String computerMove = "";
 
         switch (computerRandomNumber) {
-            case 1:
+            case 0:
                 computerMove = "Rock";
                 break;
-            case 2:
+            case 1:
                 computerMove = "Paper";
                 break;
-            case 3:
+            case 2:
                 computerMove = "Scissors";
                 break;
 
